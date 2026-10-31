@@ -1,6 +1,6 @@
 # Laplace
 
-A simple personal profile using the same black, charcoal, rounded-panel design as Laplace Hub and Bridge. GitHub, Instagram, TikTok, and Discord are linked. No build step or external fonts are required.
+A simple personal profile using the black, charcoal, rounded-panel design of Laplace Hub and Bridge, with the original animated background and particles. Links appear in one column with icons and names only. GitHub, Instagram, TikTok, and Discord are linked. No build step or external fonts are required.
 
 ## Website files
 
@@ -12,8 +12,11 @@ Upload these to the root of the GitHub repository:
 - visitors.js
 - favicon.svg
 - avatar.jpg (the existing image is unchanged)
+- background.jpg
+- particles.js
+- buttons.js
 
-Keep README.md if you want these notes in the repository. The counter folder is its separate Cloudflare backend; GitHub Pages does not run it. The old buttons.js and particles.js are no longer used. **Keep the new visitors.js**: it runs the real counter.
+Keep README.md if you want these notes in the repository. The counter folder is its separate Cloudflare backend; GitHub Pages does not run it. **Keep buttons.js and particles.js** for hover effects and background animation. Motion pauses in hidden tabs and respects reduced-motion preferences. **Keep the new visitors.js**: it runs the real counter.
 
 Open index.html for a visual preview. Local file previews deliberately do not record production visits.
 

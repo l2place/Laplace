@@ -15,8 +15,9 @@ Upload these to the root of the GitHub repository:
 - background.jpg
 - particles.js
 - buttons.js
+- motion.js
 
-Keep README.md if you want these notes in the repository. The counter folder is its separate Cloudflare backend; GitHub Pages does not run it. **Keep buttons.js and particles.js** for hover effects and background animation. Motion pauses in hidden tabs and respects reduced-motion preferences. **Keep the new visitors.js**: it runs the real counter.
+Keep README.md if you want these notes in the repository. The counter folder is its separate Cloudflare backend; GitHub Pages does not run it. **Keep buttons.js and particles.js** for hover effects and background animation. Motion pauses in hidden tabs. The header control can enable or pause all motion and saves the choice in local storage. System reduced motion is respected initially, and the user can explicitly enable animation. Background parallax, layered mist, frame-rate-independent drifting particles, light streaks, hover tilt, and tap ripples provide continuous visible movement on desktop and touch screens. **Keep the new visitors.js**: it runs the real counter.
 
 Open index.html for a visual preview. Local file previews deliberately do not record production visits.
 
